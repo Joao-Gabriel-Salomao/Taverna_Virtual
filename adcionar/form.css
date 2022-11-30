@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#logo{
+    color: brown;
+}
+
+fieldset{
+    border: 3px solid crimson;
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(192, 12, 12), black);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+    color: black;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: black;
+    padding: 15px;
+    border-radius: 15px;
+    width: 30%;
+    height: 100%;
+    border: 3px solid crimson;
+}
+
+input, select, textarea, button{
+    border-radius: 5px;
+}
+
+.campo{
+    margin-bottom: 1em;
+}
+
+.campo label{
+    margin-bottom: 0.2rem;
+    color:blueviolet;
+    display: block;
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[type='text'], .campo input[type='number'], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid crimson;
+    box-shadow: 2px 2px 2px rgb(0,0,0,0.2);
+    display: block;
+} 
+
+.campo section option{
+    padding-right:1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+    background: #E0E0F8;
+}
+
+.grupo{
+    margin: 10px;
+}
+
+.button {
+    font-size: 1.2em;
+    background: crimson;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px black;
+    text-shadow: 1px 1px 1px black;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.button:hover{
+    background: rgb(255, 0, 0);
+    box-shadow: inset 2px 2px 2px black;
+}
+
+#check {
+    display: inline-block;
+
+}
+
+.choice{
+    color: crimson;
+    padding: 2px;
+}
+
+.choice1{
+    color: crimson;
+    margin-top: 100px;
+}
+.picture__input{
+    display: none;
+}
+.picture{
+    width: 250px;
+    height: 330px;
+    background: #eee;
+    margin: 10px;
+    margin-top: 30px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    border: 2px solid currentColor;
+    cursor: pointer;
+    font-family: sans-serif;
+    transition: color 300ms ease-in-out, background 300ms ease-in-out, outline 300ms ease-in-out;
+    outline: 2px solid #fff;
+}
+
+.picture:hover{
+    color: crimson;
+    background: #bbb;
+}
+
+.picture:active{
+    color: #cb0505;
+    background: rgb(0, 0, 0);
+}
+
+.picture:focus{
+    outline: 2px solid crimson;
+}
+
+.picture__img{
+    max-width: 100%;
+}

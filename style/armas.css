@@ -41,6 +41,53 @@ header .logo text span{
     color: rgb(255, 0, 51);
     margin: 5px;
 }
+
+
+
+
+
+/*      button      */
+#home .container .content .button button{
+    padding: 10px 20px;
+    margin-top: 50px;
+    border: none;
+    margin-left: 10px;
+    background:#980000 ;
+    font-size: 1.2rem;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    border-radius: 5px;
+    box-shadow: black 0.2em 0.2em 0.2em;
+}
+
+#home .container .content .button button .letra{
+    color: #f0f8ff;
+    font-family: 'Belleza', sans-serif;
+    text-decoration: none;
+}
+
+
+#home .container .content .button button:hover{
+    transform: scale(1.1);
+}
+
+
+#home .container .content button.criar{
+    background: #000000;
+    padding: 15px 20px;
+    position: relative;
+    right: 5px;
+}
+
+
+
+
+
+
+
+
+
 /*      SECTION       */
 section .container{
     max-width: 1680px;

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/icon.png">
+    <link rel="stylesheet" href="form.css">
+    <script src="index.js"></script>
+    <title>Criação</title>
+</head>
+<body>
+    <div class="box">
+        <div class="container">
+            <h1 id="logo">Crie e Adicione seus itens ao nosso Iventário</h1>
+        </div>
+
+        <form>
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label class="nome1"><strong>Nome</strong></label>
+                    <input class="nome2" type="text" name="nome" required><br>
+
+                    <label class="nome1">dano</label>
+                    <input class="nome2" type="number" name="dano" required><br>
+
+                    <label class="nome1">oi</label>
+                    <input class="nome2" type="number" name="dano" required><br>
+
+
+                    <label>Selecione o tipo de arma</label>
+                <select id="tipo">
+                    <option selected disabled value=" ">Selecione</option>
+                    <option>Lâminas</option>
+                    <option>Contudentes</option>
+                    <option>Escudos</option>
+                    <option>Armas de fogo</option>
+                    <option>Arcos & Balestras</option>
+                    <option>Cajados & Varinhas</option>
+                    <option>Consumiveis</option>
+                </select>
+
+                </div>
+            </fieldset>
+
+            <fieldset class="grupo">
+                <div id="check">
+                    <label class="choice">Selecione o atributo o qual a arma ultiliza</label><br>
+                    <input type="checkbox" id="atributo" name="atributo" value="Força">
+                    <label class="choice1" for="atributo">Força</label><br>
+                    <input type="checkbox" id="atributo" name="atributo" value="Destreza">
+                    <label class="choice1" for="atributo">Destreza</label><br>
+                    <input type="checkbox" id="atributo" name="atributo" value="Inteligência">
+                    <label class="choice1" for="atributo">Inteligência</label><br>
+                    <input type="checkbox" id="atributo" name="atributo" value="Constituicao">
+                    <label class="choice1" for="atributo">Constituição</label><br>
+                </div>
+            </fieldset>
+
+            <label class="picture" for="picture__input" tabIndex="0">
+                <span class="picture__image"></span>
+              </label>
+              
+              <input type="file" name="picture__input" id="picture__input">
+
+            <!-- <div class="campo"> 
+                <br>
+                <label>Adcione uma descrição a sua arma, conte a história dela...</label>
+                <textarea rows="10" style="width: 26em;" id="historia"></textarea>
+            </div>
+
+            <button type="submit" class="button">Rolar d20</button> -->
+        </form>
+    </div>
+</body>
+</html>
